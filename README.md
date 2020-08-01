@@ -73,12 +73,12 @@ Water usage from various IoT sensor devices will be transmitted to IBM cloud and
 
 [![Watch the Link](Architecture_IBMCloud.png)](https://github.com/CFC-ICC2020/IBM_ICC2020)
 
-# Acknowledgements
-
-##Special Applause to our Team
+# Acknowledgements -Special Applause to our Team
 		
 	Raghav S     - Implemented IBM Cloud Services like IoT Sensors, Node-Red Editors,ML Algorithms and Cloudant Database
 	Gokul R      - Contributed more Artifacts on Water Crisis, IoT Research Journals and Key contributer for Documentation and Demo Video
 	Prashanth B  - Provided more insights on Ground Water Analysis and Embedding IoT Sensors
-	Akshaya      - Gathered  more data on Real-time Datasets and Simulating IoT Sensors 
+	Akshaya      - Gathered  more data on Real-time Datasets and Simulating IoT Sensors
+
+Contact : sgnanamaruna@gmail.com for any clarification
 	
