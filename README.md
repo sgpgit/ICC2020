@@ -27,9 +27,9 @@ With the help of IoT sensors, Cloud technology and Machine Learning algorithms, 
 
 ## Demo video
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://drive.google.com/file/d/1TLPnVpmIH-dvUMbmKCXe3zwl6dM5G-AM/view)
+[![Watch the video](5-ways-to-save-water.jpg)](https://drive.google.com/file/d/1TLPnVpmIH-dvUMbmKCXe3zwl6dM5G-AM/view)
 
-![Current Solution Link](https://github.com/CFC-ICC2020/IBM_ICC2020)
+![Click here for  Solution Link](https://github.com/CFC-ICC2020/IBM_ICC2020)
 
 
 ## The Architecture
