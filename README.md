@@ -1,7 +1,5 @@
 # ICC2020
 
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack) [![Website](https://img.shields.io/badge/View-Website-blue)](https://code-and-response.github.io/Project-Sample/)
-
 A basic GitHub repository example for Call for Code submissions and those projects that join the Code and Response initiative. Not all sections or files are required. You can make this as simple or as in-depth as you need.
 
 *Read this in other languages: [English](README.md), [한국어](README.ko.md), [português](README.pt_br.md).*
@@ -36,6 +34,9 @@ With the help of IoT sensors, Cloud technology and Machine Learning algorithms, 
 ## The architecture
 
 ![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+
+![Current Solution(Current_Solution_Design.png)
+![Architecture](Architecture_IBMCloud.png)
 
 1. The user navigates to the site and uploads a video file.
 2. Watson Speech to Text processes the audio and extracts the text.
@@ -130,6 +131,4 @@ IBM Watson Assistant (https://web-chat.global.assistant.watson.cloud.ibm.com/pre
 >> Periodic SMS is also configured for Leakage. 
 
 Note: Views are created to filter required data from Cloudant DB. The code for views is also provided.
-
-## Acknowledgments
 
