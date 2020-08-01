@@ -33,8 +33,6 @@ With the help of IoT sensors, Cloud technology and Machine Learning algorithms, 
 
 ![Current Solution](Current_Solution_Design.png)
 
-![Architecture](Architecture_IBMCloud.png)
-
 Points:
 
 1. The user navigates to the site and uploads a video file.
@@ -53,7 +51,6 @@ Points:
 ## Getting started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 
 ## Live demo
 
