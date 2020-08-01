@@ -46,15 +46,11 @@ Points:
 
 ## Project roadmap
 
-![Roadmap](Roadmap.png)
+![Roadmap](ICC2020_RoadMap.png)
 
 ## Getting started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-## Live demo
-
-IBM Watson Assistant (https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=2ab06ab1-8c28-4b68-a8c7-10c8480531c5&serviceInstanceID=651a2d01-45ba-4f31-9f18-bc757f988366)
 
 ## Built with
 
