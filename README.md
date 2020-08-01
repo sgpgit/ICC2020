@@ -27,7 +27,8 @@ With the help of IoT sensors, Cloud technology and Machine Learning algorithms, 
 
 ## Demo video
 
-[![Watch the video]
+[![Watch the video](https://drive.google.com/file/d/1TLPnVpmIH-dvUMbmKCXe3zwl6dM5G-AM/view)
+
 
 ## The Architecture
 
