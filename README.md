@@ -25,7 +25,7 @@ Emerging Information Technology will give more benefits for a Common Man and Com
 
 With the help of IoT sensors, Cloud technology and Machine Learning algorithms, we are proposing a solution, that will provide us to understand the relation between total storage / groundwater available in a particular zone / community / individual residence, quantity of water used, quantity of water wasted (leakage) and the quantity of water recharged back to the source. With the obtained data, we can predict and alert the common people / authorities.
 
-## Demo video
+## Demo video - Click the Below Image to view the demo video
 
 [![Watch the video](5-ways-to-save-water.jpg)](https://drive.google.com/file/d/1TLPnVpmIH-dvUMbmKCXe3zwl6dM5G-AM/view)
 
