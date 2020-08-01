@@ -1,4 +1,4 @@
-# Submission name
+# ICC2020
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack) [![Website](https://img.shields.io/badge/View-Website-blue)](https://code-and-response.github.io/Project-Sample/)
 
@@ -27,15 +27,15 @@ A basic GitHub repository example for Call for Code submissions and those projec
 
 ### What's the problem?
 
-Part of the World Health Organization's guidance on limiting further spread of COVID-19 is to practice social distancing. As a result, schools in most affected areas are taking precautionary measures by closing their facilities. With school-aged children at home for an indeterminate amount of time,  keeping them engaged, entertained, and on top of their education is important.
+Water is at the core of sustainable development and is critical for socio-economic development, healthy ecosystems and for human survival itself. Today, the main water source for over 2 billion people are aquifers – underground stores of freshwater. It is estimated that by 2025 almost half of the urban population will live in water-stressed areas as this precious commodity is becoming scarce rapidly.
 
 ### How can technology help?
 
-Schools and teachers can continue to engage with their students through virtual classrooms, and even create interactive spaces for classes. As parents face a new situation where they may need to homeschool their children, finding appropriate online resources is important as well.
+Emerging Information Technology will give more benefits for a Common Man and Community in order to Analyse,Predict the Scarcity and save the Natural resources. Water is being an essential part in our day-to-day life needs to be saved with the help of Internet of Things.
 
 ### The idea
 
-It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+With the help of IoT sensors, Cloud technology and Machine Learning algorithms, we are proposing a solution, that will provide us to understand the relation between total storage / groundwater available in a particular zone / community / individual residence, quantity of water used, quantity of water wasted (leakage) and the quantity of water recharged back to the source. With the obtained data, we can predict and alert the common people / authorities.
 
 ## Demo video
 
@@ -72,84 +72,81 @@ wget http://www.example.com/install.sh
 bash install.sh
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be, for example
-
-```bash
-export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-export EMAIL="jane@example.com"
-dnf install npm
-node samplefile.js
-Server running at http://127.0.0.1:3000/
-```
-
-And repeat
-
-```bash
-curl localhost:3000
-Thanks for looking at Code-and-Response!
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why, if you were using something like `mocha` for instance
-
-```bash
-npm install mocha --save-dev
-vi test/test.js
-./node_modules/mocha/bin/mocha
-```
-
-### And coding style tests
-
-Explain what these tests test and why, if you chose `eslint` for example
-
-```bash
-npm install eslint --save-dev
-npx eslint --init
-npx eslint sample-file.js
-```
-
 ## Live demo
 
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
+IBM Watson Assistant (https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=2ab06ab1-8c28-4b68-a8c7-10c8480531c5&serviceInstanceID=651a2d01-45ba-4f31-9f18-bc757f988366)
 
 ## Built with
 
-* [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-* [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-* [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+**** IBM Services to be deployed ****
+	Node-Red
+	Watson IoT
+	Watson Studio
+	Cloudant DB - With 4 databases
+		1- db_water_store
+		2- db_houseicc2020_usage
+		3- houseicc_daily_usage
+		4- General DB - for storing node red flows
+	Watson chatbot
+	Twilio service
 
-## Contributing
+**** Nodes to be installed in Node Red ****
+	node-red-dashboard
+	node-red-contrib-ibm-watson-iot
+	node-red-contrib-python3-function
+	node-red-contrib-sms-twilio
+	node-red-contrib-watson-machine-learning
+	node-red-node-cf-cloudant
+	node-red-node-watson
+	
+**** External accounts ****
+	A trial account in Twilio to send SMS
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+**** Auto AI experiments ****
+	Trained fours ML models in Watson Auto AI.
 
-## Versioning
+>>Provided node red json fow. Import the flow in node red.
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+**** Changes to be made in flow to run in any Node red ****
 
-## Authors
+>> Update the IoT sensor details as per your deployed service.
+>> Update the Cloudant DB instance.
+>> Update the Twilio account.
+>> Update ML model instance ID and API key
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
+**** Short Description ****
 
-## License
+>> Water usage in a house varies based on time. So, simulation of usage data (to be synchronous with original data) should be done based on time. Input to Watson IoT simulated sensor is given from Node red based on current timestamp.
 
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
+>> The sensor data uploaded to Watson IoT is transferred to Node red and the data is uploaded in Cloudant DB - "db_houseicc2020_usage" with current date and timestamp.
+
+>> At every day 00:00 am the cosolidated water usage of previous day is calculated and is updated in another cloudant DB - "houseicc_daily_usage"
+
+>> With the obtained data for consolidated water usage, a ML model is created in Watson Auto AI.
+
+>> A parameter called "Water Recharge" which refers the amount of water that is getting recharged back to ground so as to enhance current solution to ground water is also taken into account.
+	
+	**** Recharge Calculation ****
+	>> Recharge will depends on following factors:
+		>. Evaporation - which depends on temperature
+		>. Humidity
+		>. Rainfall and 
+		>. Rocks and soil texture in an area
+		>. Type of usage - (Household, Industries or Agriculture etc..,)
+	So, Considering the above factors we concluded to take recharge as percentage of usage that depends on various seasons (Summer, Winter,Autumn,Spring) - (Which determines temerature, humidity and rainfall)
+	
+>> The proposed solution finds complexity in calculating actual ground water. So, repacing ground water to central water storage. (Ground water calculation will be taken care in future)
+
+>> ML models are trained and deployed and is connected to node red.
+
+>> Prediction of Day Zero is done and a dashboard is generated for end users.
+
+>> Leakage sensors are simulated from Watson IoT and the data is transmitted to node red.
+
+>> Periodic SMS is also configured for Leakage. 
+
+Note: Views are created to filter required data from Cloudant DB. The code for views is also provided.
 
 ## Acknowledgments
 
-* Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
