@@ -50,7 +50,7 @@ Points:
 
 ## Project roadmap
 
-![Roadmap](roadmap.jpg)
+![Roadmap](Roadmap.png)
 
 ## Getting started
 
