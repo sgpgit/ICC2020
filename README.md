@@ -31,7 +31,7 @@ With the help of IoT sensors, Cloud technology and Machine Learning algorithms, 
 
 ## Proposed Solution Design
 
-![Current Solution](Current_Solution_Design.png)
+[![Current Solution](Current_Solution_Design.png)](ICC2020_CFC_LongDescription.docx)
 
 Points:
 
@@ -67,7 +67,7 @@ Water usage from various IoT sensor devices will be transmitted to IBM cloud and
 
 ## Project roadmap
 
-![Roadmap](ICC2020_RoadMap.png)
+[![Roadmap](ICC2020_RoadMap.png)](ICC2020_Roadmap_July_31_2020.docx)
 
 ## Solution Link - Click the below Image for Source Code
 
