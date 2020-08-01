@@ -119,7 +119,7 @@ Recharge will depends on following factors:
 		>. Rainfall and 
 		>. Rocks and soil texture in an area
 		>. Type of usage - (Household, Industries or Agriculture etc..,)
-	So, Considering the above factors we concluded to take recharge as percentage of usage that depends on various seasons (Summer, Winter,Autumn,Spring) - (Which determines temerature, humidity and rainfall)
+So, Considering the above factors we concluded to take recharge as percentage of usage that depends on various seasons (Summer, Winter,Autumn,Spring) - (Which determines temerature, humidity and rainfall)
 	
 >> The proposed solution finds complexity in calculating actual ground water. So, repacing ground water to central water storage. (Ground water calculation will be taken care in future)
 
@@ -135,10 +135,10 @@ Note: Views are created to filter required data from Cloudant DB. The code for v
 
 # Acknowledgements
 
-Specaial Applause to our Team
+##Special Applause to our Team
 		
 		Raghav S - Implemented IBM Cloud Services like IoT Sensors, Node-Red Editors,ML Algorithms and Cloudant Database
-		Gokul R -  Contributed more required Artifacts on Water Sustainability, Water Research Journals and Key contributer for Documentation and Demo Video
+		Gokul R -  Contributed more required Artifacts on Water Crisis, IoT Research Journals and Key contributer for Documentation and Demo Video
 		Prashanth B - Provided more insights on Ground Water Analysis and Embedding IoT Sensors
-		Akshaya - Contributed Real-time Datasets and Simulating IoT Sensors 
+		Akshaya - Contributed her best on collecting Real-time Datasets and Simulating IoT Sensors 
 	
