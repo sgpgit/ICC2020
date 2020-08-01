@@ -29,14 +29,15 @@ With the help of IoT sensors, Cloud technology and Machine Learning algorithms, 
 
 ## Demo video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video]
 
-## The architecture
+## The Architecture
 
-![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![Current Solution](Current_Solution_Design.png)
 
-![Current Solution(Current_Solution_Design.png)
 ![Architecture](Architecture_IBMCloud.png)
+
+Points:
 
 1. The user navigates to the site and uploads a video file.
 2. Watson Speech to Text processes the audio and extracts the text.
