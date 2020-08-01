@@ -137,8 +137,8 @@ Note: Views are created to filter required data from Cloudant DB. The code for v
 
 ##Special Applause to our Team
 		
-		Raghav S - Implemented IBM Cloud Services like IoT Sensors, Node-Red Editors,ML Algorithms and Cloudant Database
-		Gokul R -  Contributed more Artifacts on Water Crisis, IoT Research Journals and Key contributer for Documentation and Demo Video
-		Prashanth B - Provided more insights on Ground Water Analysis and Embedding IoT Sensors
-		Akshaya - Gathered  more data on Real-time Datasets and Simulating IoT Sensors 
+	Raghav S     - Implemented IBM Cloud Services like IoT Sensors, Node-Red Editors,ML Algorithms and Cloudant Database
+	Gokul R      - Contributed more Artifacts on Water Crisis, IoT Research Journals and Key contributer for Documentation and Demo Video
+	Prashanth B  - Provided more insights on Ground Water Analysis and Embedding IoT Sensors
+	Akshaya      - Gathered  more data on Real-time Datasets and Simulating IoT Sensors 
 	
