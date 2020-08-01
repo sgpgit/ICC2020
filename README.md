@@ -71,7 +71,7 @@ Water usage from various IoT sensor devices will be transmitted to IBM cloud and
 
 ## Solution Link - Click the below Image for Source Code
 
-[![Solution Link](Architecture_IBMCloud.png)](https://github.com/CFC-ICC2020/IBM_ICC2020)
+[![Watch the Link](Architecture_IBMCloud.png)](https://github.com/CFC-ICC2020/IBM_ICC2020)
 
 # Acknowledgements
 
