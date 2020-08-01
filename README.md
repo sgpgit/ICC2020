@@ -71,7 +71,7 @@ Water usage from various IoT sensor devices will be transmitted to IBM cloud and
 
 ## Built with
 
-**** IBM Services to be deployed ****
+# IBM Services to be deployed
 	Node-Red
 	Watson IoT
 	Watson Studio
@@ -83,7 +83,7 @@ Water usage from various IoT sensor devices will be transmitted to IBM cloud and
 	Watson chatbot
 	Twilio service
 
-**** Nodes to be installed in Node Red ****
+# Nodes to be installed in Node Red
 	node-red-dashboard
 	node-red-contrib-ibm-watson-iot
 	node-red-contrib-python3-function
@@ -92,36 +92,28 @@ Water usage from various IoT sensor devices will be transmitted to IBM cloud and
 	node-red-node-cf-cloudant
 	node-red-node-watson
 	
-**** External accounts ****
+# External accounts
 	A trial account in Twilio to send SMS
 
-**** Auto AI experiments ****
+# Auto AI experiments
 	Trained fours ML models in Watson Auto AI.
 
 >>Provided node red json fow. Import the flow in node red.
 
-**** Changes to be made in flow to run in any Node red ****
+# Changes to be made in flow to run in any Node red ****
 
 >> Update the IoT sensor details as per your deployed service.
 >> Update the Cloudant DB instance.
 >> Update the Twilio account.
 >> Update ML model instance ID and API key
 
+# Short Description
 
-**** Short Description ****
-
->> Water usage in a house varies based on time. So, simulation of usage data (to be synchronous with original data) should be done based on time. Input to Watson IoT simulated sensor is given from Node red based on current timestamp.
-
->> The sensor data uploaded to Watson IoT is transferred to Node red and the data is uploaded in Cloudant DB - "db_houseicc2020_usage" with current date and timestamp.
-
->> At every day 00:00 am the cosolidated water usage of previous day is calculated and is updated in another cloudant DB - "houseicc_daily_usage"
-
->> With the obtained data for consolidated water usage, a ML model is created in Watson Auto AI.
-
->> A parameter called "Water Recharge" which refers the amount of water that is getting recharged back to ground so as to enhance current solution to ground water is also taken into account.
+Water usage in a house varies based on time. So, simulation of usage data (to be synchronous with original data) should be done based on time. Input to Watson IoT simulated sensor is given from Node red based on current timestamp. The sensor data uploaded to Watson IoT is transferred to Node red and the data is uploaded in Cloudant DB - "db_houseicc2020_usage" with current date and timestamp. At every day 00:00 am the cosolidated water usage of previous day is calculated and is updated in another cloudant DB - "houseicc_daily_usage" With the obtained data for consolidated water usage, a ML model is created in Watson Auto AI.
+A parameter called "Water Recharge" which refers the amount of water that is getting recharged back to ground so as to enhance current solution to ground water is also taken into account.
 	
-	**** Recharge Calculation ****
-	>> Recharge will depends on following factors:
+# Recharge Calculation 
+Recharge will depends on following factors:
 		>. Evaporation - which depends on temperature
 		>. Humidity
 		>. Rainfall and 
@@ -139,5 +131,5 @@ Water usage from various IoT sensor devices will be transmitted to IBM cloud and
 
 >> Periodic SMS is also configured for Leakage. 
 
-Note: Views are created to filter required data from Cloudant DB. The code for views is also provided.
+# Note: Views are created to filter required data from Cloudant DB. The code for views is also provided.
 
